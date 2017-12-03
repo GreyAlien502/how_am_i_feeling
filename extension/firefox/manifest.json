@@ -1,0 +1,16 @@
+{
+	"applications": {
+		"gecko": { "id": "how_am_i_feeling@greyalien502.org" }
+	},
+	"manifest_version": 2,
+	"name": "how_am_i_feeling",
+	"version": "0.1",
+	"description": "Show newest comments instead of top comments",
+	"browser_action":{
+		"browser_style":true,
+		"default_title":"How do you feel?",
+		"default_popup":"popup.html"
+	},
+	"background": { "scripts": ["background.js"] },
+	"omnibox": { "keyword": "how_am_i_feeling" }
+}
