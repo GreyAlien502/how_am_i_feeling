@@ -9,8 +9,9 @@
 	"browser_action":{
 		"browser_style":true,
 		"default_title":"How do you feel?",
-		"default_popup":"popup.html"
+		"default_popup":"popup.html",
+		"default_icon":"happy.png"
 	},
 	"background": { "scripts": ["background.js"] },
-	"omnibox": { "keyword": "how_am_i_feeling" }
+	"omnibox": { "keyword": "im_feeling" }
 }
